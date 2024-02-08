@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/general.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="formulaire">
+        <header>
+            <img src="../image/logo.PNG" alt="logo">
+            <div>Société des Alcooliques Anonymes</div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../galerie/galerie.html">Galerie</a></li>
+                <li><a href="../catalogue/catalogue.html">Catalogue</a></li>
+                <li><a href="../tableau/tableau.html">Tableau</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form action="google.com" method="post">
+                <div class="premier">
+                    <fieldset>
+                        <legend>Informations personnelles</legend>
+                        <div class="info">
+                            <div>
+                                <label for="prenom">Prénom*</label>
+                                <input type="text" id="prenom" name="prenom" required>
+                            </div>
+                            <div>
+                                <label for="nom">Nom*</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                            <div>
+                                <label for="mail">Mail*</label>
+                                <input type="text" id="mail" name="mail" required>
+                            </div>
+                            <div>
+                                <label for="adresse">Adresse</label>
+                                <input type="text" id="adresse" name="adresse">
+                            </div>
+                            <div>
+                                <label for="ville">Ville</label>
+                                <input type="text" id="ville" name="ville">
+                            </div>
+                            <div>
+                                <label for="postal">Code postal</label>
+                                <input type="text" id="postal" name="postal">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Notifications
+                        </legend>
+                        <div>
+                            <p>
+                                Je désire être informé :
+                            </p>
+                        </div>
+                        <div class="produit">
+                            <input type="checkbox" id="produit" name="checkbox" value="produit">
+                            <label for="produit">
+                                Des nouveaux produits
+                            </label>
+                        </div>
+                        <div class="offre">
+                            <input type="checkbox" id="offre" name="checkbox" value="offre">
+                            <label for="offre">
+                                Des nouvelles offres
+                            </label>
+                        </div>
+                        <select class="select" name="pref" id="pref">
+                            <option value="1">Alcool préféré</option>
+                            <option value="2">Bières</option>
+                            <option value="3">Vins</option>
+                            <option value="4">Champagnes</option>
+                            <option value="5">Fort</option>
+                            <option value="6">Tout</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="deuxieme">
+                    <fieldset>
+                        <legend>
+                            Âge
+                        </legend>
+                        <div>
+                            <p>Avez-vous 18 ans ou plus :*</p>
+                        </div>
+                        <div class="oui">
+                            <input type="radio" id="oui" name="radio" value="oui" required>
+                            <label for="oui">Oui</label>
+                        </div>
+                        <div class="non">
+                            <input type="radio" id="non" name="radio" value="non" required>
+                            <label for="non">Non</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="commentaire">
+                        <legend>Commentaires</legend>
+                        <textarea name="Commentaire" id="commentaire" cols="30" rows="10"></textarea>
+                    </fieldset>
+                </div>
+                <input type="submit" value="Confirmer" name="confirmer" id="confirmer">
+            </form>
+        </main>
+        <footer>
+            <div>
+                <div>
+                    <p>Contacter-Nous :</p>
+                    <a href="mailto:SAA-boutique@gmail.com">SAA-boutique@gmail.com</a>
+                </div>
+
+                <div>
+                    <p>Nos reseaux :</p>
+                    <a href="https://www.instagram.com/"><img src="../image/logo_instagrame.png"
+                            alt="logo instagram"></a>
+                    <a href="https://www.facebook.com/"><img src="../image/Facebook-logo.png" alt="logo facebook"></a>
+                    <a href="https://twitter.com/"><img src="../image/logo_twitter.png" alt="logo twitter"></a>
+                    <a href="https://www.youtube.com/"><img src="../image/logo_youtube.png" alt="logo youtube"></a>
+                </div>
+
+                <div>
+                    <p>L'alcool est a consomer avec modération.</p>
+                    <p>18+</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

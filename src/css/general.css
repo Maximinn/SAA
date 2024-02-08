@@ -1,0 +1,433 @@
+/*General ------------------------------------------------------------------------------------------*/
+body {
+    background-color: #E8D7F1;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 150px;
+    height: 100px;
+}
+
+@font-face {
+    font-family: titre;
+    src: url(police_ecriture/StyleScript-Regular.ttf);
+}
+
+
+header div {
+    display: inline-block;
+    font-size: 75px;
+    vertical-align: top;
+    font-family: titre;
+    color: #80475E;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+nav {
+    margin-bottom: 10px;
+    border-top: 3px solid #80475E;
+    border-bottom: 3px solid #80475E;
+}
+
+nav a {
+    text-decoration: none;
+    color: #356a78;
+}
+
+nav a:hover {
+    padding-bottom: 5px;
+    color: #CBB24A;
+    border-bottom: 5px solid #CBB24A;
+}
+
+main img {
+    width: 200px;
+    height: 300px;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 3px solid #80475E;
+    height: 100px;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
+}
+
+footer div * {
+    display: inline;
+}
+
+footer div div {
+    margin: 30px 20px;
+    padding: 20px;
+}
+
+footer a {
+    color: #356a78;
+}
+
+footer p {
+    margin: 0px 10px;
+}
+
+
+
+/*Index ------------------------------------------------------------------------------------------*/
+.index nav li:first-of-type a {
+    padding-bottom: 5px;
+    color: #CBB24A;
+    border-bottom: 5px solid #CBB24A;
+}
+
+.index main img {
+    width: 95%;
+    margin: auto;
+}
+
+.index main div div {
+    display: inline-block;
+    width: 32%;
+}
+
+.englobe {
+    text-align: center;
+    border-left: 3px solid #80475E;
+    border-right: 3px solid #80475E;
+
+}
+
+.englober {
+    text-align: center;
+}
+
+.index main p {
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+
+
+
+
+
+/*Galerie ------------------------------------------------------------------------------------------*/
+.galerie nav li:first-of-type+li a {
+    padding-bottom: 5px;
+    color: #CBB24A;
+    border-bottom: 5px solid #CBB24A;
+}
+
+.galerie main div+div, .galerie main div div:first-child {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 10px 5px;
+    padding: 10px 0px 10px 0px;
+    border: 3px solid lightgray;
+    color: #356a78;
+}
+
+
+.galerie main div {
+    text-align: center;
+}
+
+
+
+
+/*Catalogue ------------------------------------------------------------------------------------------*/
+.catalogue nav li:first-of-type+li+li a {
+    padding-bottom: 5px;
+    color: #CBB24A;
+    border-bottom: 5px solid #CBB24A;
+}
+
+.catalogue main div {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 5px solid lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.catalogue main {
+    text-align: center;
+}
+
+.catalogue main p {
+    color: #356a78;
+    font-size: 18px;
+}
+
+.catalogue main div p:first-of-type {
+    font-size: 20px;
+}
+
+.catalogue button {
+    color: #CBB24A;
+    background-color: #80475E;
+    border: 0;
+    padding: 10px 100px;
+}
+
+.catalogue button:hover {
+    background-color: #8a5365;
+}
+
+.catalogue button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+/*Tableau ------------------------------------------------------------------------------------------*/
+.tableau nav li:first-of-type+li+li+li a {
+    padding-bottom: 5px;
+    color: #CBB24A;
+    border-bottom: 5px solid #CBB24A;
+}
+
+.tableau main table {
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 10px;
+    border-left: 2px solid #80475E;
+    border-right: 2px solid #80475E;
+}
+
+.tableau main table tr.color {
+    background-color: #F6E8EA;
+}
+
+.tableau main table td {
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+
+
+
+/*Formulaire ------------------------------------------------------------------------------------------*/
+
+
+fieldset {
+    text-align: right;
+    display: inline;
+    width: 500px;
+    height: 210px;
+    position: relative;
+}
+
+.formulaire main {
+    text-align: center;
+}
+
+.formulaire #confirmer {
+    width: 90px;
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.premier fieldset:last-child {
+    bottom: 51px;
+}
+
+.deuxieme fieldset:first-child {
+    bottom: 95px;
+}
+
+.deuxieme fieldset:last-child {
+    bottom: 30px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
+.deuxieme .commentaire {
+    text-align: center;
+}
+
+.commentaire textarea {
+    position: relative;
+    top: 20px;
+}
+
+.select {
+    position: relative;
+    top: 35px;
+    right: 200px;
+}
+
+.produit, .offre {
+    position: relative;
+    left: 155px;
+    top: 15px;
+}
+
+.oui, .non {
+    position: relative;
+    top: 30px;
+    left: 200px;
+    font-size: 20px;
+}
+
+.formulaire .info {
+    margin-right: 150px;
+}
+
+.formulaire .info div {
+    margin-top: 10px;
+}
+
+#pref {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 18px;
+}
+
+.formulaire legend, .formulaire p, .formulaire .produit, .formulaire .offre, .formulaire .oui, .formulaire .non {
+    text-align: left;
+}
+
+.formulaire input[type=submit] {
+    color: #CBB24A;
+    background-color: #80475E;
+}
+
+.formulaire input[type=submit]:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.formulaire input[type=submit]:hover {
+    background-color: #8a5365;
+}
+
+.formulaire nav {
+    margin-bottom: 40px;
+}
+
+legend {
+    color: #356a78;
+}
+
+fieldset {
+    border-color: #80475E;
+}
+
+.offre, .produit {
+    font-size: 20px;
+}
+
+
+
+/*Detail ------------------------------------------------------------------------------------------*/
+.detail main div:not(:target) {
+    display: none;
+}
+
+.detail main div img {
+    height: 500px;
+    width: 320px;
+    border-right: 3px solid #80475E;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.detail main div p:first-of-type+p, .detail main div p:first-of-type+p+p, .detail main div p:first-of-type+p+p+p {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #80475E;
+    border-left: 1px solid #80475E;
+    font-size: 20px;
+}
+
+.detail main div p:first-of-type {
+    font-size: 50px;
+    vertical-align: top;
+    margin: 0;
+}
+
+.detail main div {
+    text-align: center;
+    position: relative;
+}
+
+.detail main div p:first-of-type+p+p+p+p {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 360px;
+    margin-right: 40px;
+}
+
+.detail main div p:first-of-type+p+p+p+p+p, .detail main div p:first-of-type+p+p+p+p+p+p {
+    margin: 0;
+    margin-right: 710px;
+    font-size: 20px;
+}
+
+.detail main div p:first-of-type+p+p+p+p+p {
+    margin-top: 140px;
+}
+
+.detail main div button, .detail main div button+p {
+    display: inline-block;
+    position: absolute;
+}
+
+.detail main div button {
+    left: 350px;
+}
+
+.detail main div button+p {
+    padding: 7px 10px;
+    margin: 0;
+    border: 2px solid #80475E;
+    left: 600px;
+}
+
+.detail button {
+    color: #CBB24A;
+    background-color: #80475E;
+    border: 0;
+    padding: 10px 100px;
+}
+
+.detail button:hover {
+    background-color: #8a5365;
+}
+
+.detail button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.detail footer {
+    clear: left;
+}
