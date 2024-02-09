@@ -14,5 +14,3 @@
 ## Remarques
 - Assurez-vous d'avoir les extensions et les outils appropriés installés dans Visual Studio Code pour faciliter le développement.
 - Pour toute question ou problème, n'hésitez pas à consulter la documentation du projet ou à contacter l'équipe de développement.
-
-Nous vous remercions de choisir SAA. Nous sommes là pour vous assister tout au long de votre expérience.
